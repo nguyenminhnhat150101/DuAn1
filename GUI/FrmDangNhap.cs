@@ -23,23 +23,30 @@ namespace GUI
         private void btDangNhap_Click(object sender, EventArgs e)
         {
             TaiKhoan_DTO tk = new TaiKhoan_DTO();
-            tk.TaiKhoan = txtTaiKhoan.Text;
-            tk.MatKhau = busTaiKhoan.encryption(txtMatKhau.Text);
-            if (busTaiKhoan.DangNhap(tk))
+            if (txtMatKhau.Text == "" || txtTaiKhoan.Text == "")
             {
-                FrmMain.taikhoan = tk.TaiKhoan;
-                DataTable dt = busTaiKhoan.KiemTraQuyen(tk.TaiKhoan);
-                Quyen = dt.Rows[0][0].ToString();
-                MessageBox.Show("Đăng nhập thành công");
-                FrmMain.session = 1;
-                this.Close();
+                MessageBox.Show("Vui long khong de trong tai khoan hoac mat khau");
             }
             else
             {
-                MessageBox.Show("Đăng nhập không thành công, kiểm tra lại email hoặc mật khẩu");
-                txtTaiKhoan.Text = null;
-                txtMatKhau = null;
-                txtTaiKhoan.Focus();
+                tk.TaiKhoan = txtTaiKhoan.Text;
+                tk.MatKhau = txtMatKhau.Text;
+                if (busTaiKhoan.DangNhap(tk))
+                {
+                    FrmMain.taikhoan = tk.TaiKhoan;
+                    DataTable dt = busTaiKhoan.KiemTraQuyen(tk.TaiKhoan);
+                    Quyen = dt.Rows[0][0].ToString();
+                    MessageBox.Show("Đăng nhập thành công");
+                    FrmMain.session = 1;
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Đăng nhập không thành công, kiểm tra lại email hoặc mật khẩu");
+                    txtTaiKhoan.Text = null;
+                    txtMatKhau.Text = null;
+                    txtTaiKhoan.Focus();
+                }
             }
         }
 

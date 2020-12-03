@@ -142,7 +142,7 @@ namespace GUI
             dn = new FrmDangNhap();
             if (!CheckExistsForm("FrmDangNhap"))
             {
-                dn.MdiParent = this;
+                dn.IsMdiContainer = true;
                 dn.Show();
                 dn.FormClosed += new FormClosedEventHandler(FrmDangNhap_FormClosed);
             }

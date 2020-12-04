@@ -9,7 +9,6 @@ namespace DAL
 {
     public class DBConnect
     {
-        //ijii
         protected SqlConnection _conn = new SqlConnection(@"Data Source=LAPTOP-O7CEPANL\MSSQLSERVER1;Initial Catalog=QLThuVien;Integrated Security=True");
     }
 }

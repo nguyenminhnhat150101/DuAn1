@@ -55,8 +55,13 @@
             this.btDangNhap.Location = new System.Drawing.Point(117, 172);
             this.btDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btDangNhap.Name = "btDangNhap";
+<<<<<<< HEAD
             this.btDangNhap.Size = new System.Drawing.Size(289, 43);
             this.btDangNhap.TabIndex = 142;
+=======
+            this.btDangNhap.Size = new System.Drawing.Size(217, 35);
+            this.btDangNhap.TabIndex = 2;
+>>>>>>> 428d6b3bb544826d77086132c3b1a522dbe0b396
             this.btDangNhap.Text = "Đăng Nhập";
             this.btDangNhap.UseVisualStyleBackColor = false;
             this.btDangNhap.Click += new System.EventHandler(this.btDangNhap_Click);
@@ -68,8 +73,13 @@
             this.btDong.Location = new System.Drawing.Point(117, 236);
             this.btDong.Margin = new System.Windows.Forms.Padding(4);
             this.btDong.Name = "btDong";
+<<<<<<< HEAD
             this.btDong.Size = new System.Drawing.Size(289, 43);
             this.btDong.TabIndex = 143;
+=======
+            this.btDong.Size = new System.Drawing.Size(217, 35);
+            this.btDong.TabIndex = 3;
+>>>>>>> 428d6b3bb544826d77086132c3b1a522dbe0b396
             this.btDong.Text = "Đóng";
             this.btDong.UseVisualStyleBackColor = false;
             // 
@@ -78,16 +88,27 @@
             this.txtMatKhau.Location = new System.Drawing.Point(117, 122);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatKhau.Name = "txtMatKhau";
+<<<<<<< HEAD
             this.txtMatKhau.Size = new System.Drawing.Size(332, 22);
             this.txtMatKhau.TabIndex = 138;
+=======
+            this.txtMatKhau.PasswordChar = '*';
+            this.txtMatKhau.Size = new System.Drawing.Size(250, 20);
+            this.txtMatKhau.TabIndex = 1;
+>>>>>>> 428d6b3bb544826d77086132c3b1a522dbe0b396
             // 
             // txtTaiKhoan
             // 
             this.txtTaiKhoan.Location = new System.Drawing.Point(117, 79);
             this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
+<<<<<<< HEAD
             this.txtTaiKhoan.Size = new System.Drawing.Size(332, 22);
             this.txtTaiKhoan.TabIndex = 139;
+=======
+            this.txtTaiKhoan.Size = new System.Drawing.Size(250, 20);
+            this.txtTaiKhoan.TabIndex = 0;
+>>>>>>> 428d6b3bb544826d77086132c3b1a522dbe0b396
             // 
             // button1
             // 

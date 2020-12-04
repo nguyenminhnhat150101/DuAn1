@@ -32,4 +32,5 @@ namespace BUS
         {
             return dalDocGia.SearchDocGia(HoTen);
         }
+    }
 }

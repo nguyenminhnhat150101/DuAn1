@@ -39,6 +39,7 @@ namespace GUI
                     MessageBox.Show("Đăng nhập thành công");
                     FrmMain.session = 1;
                     this.Close();
+                    
                 }
                 else
                 {

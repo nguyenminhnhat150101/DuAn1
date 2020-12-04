@@ -54,7 +54,7 @@
             this.btDangNhap.Location = new System.Drawing.Point(88, 140);
             this.btDangNhap.Name = "btDangNhap";
             this.btDangNhap.Size = new System.Drawing.Size(217, 35);
-            this.btDangNhap.TabIndex = 142;
+            this.btDangNhap.TabIndex = 2;
             this.btDangNhap.Text = "Đăng Nhập";
             this.btDangNhap.UseVisualStyleBackColor = true;
             this.btDangNhap.Click += new System.EventHandler(this.btDangNhap_Click);
@@ -64,7 +64,7 @@
             this.btDong.Location = new System.Drawing.Point(88, 192);
             this.btDong.Name = "btDong";
             this.btDong.Size = new System.Drawing.Size(217, 35);
-            this.btDong.TabIndex = 143;
+            this.btDong.TabIndex = 3;
             this.btDong.Text = "Đóng";
             this.btDong.UseVisualStyleBackColor = true;
             // 
@@ -90,15 +90,16 @@
             // 
             this.txtMatKhau.Location = new System.Drawing.Point(88, 99);
             this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.PasswordChar = '*';
             this.txtMatKhau.Size = new System.Drawing.Size(250, 20);
-            this.txtMatKhau.TabIndex = 138;
+            this.txtMatKhau.TabIndex = 1;
             // 
             // txtTaiKhoan
             // 
             this.txtTaiKhoan.Location = new System.Drawing.Point(88, 64);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(250, 20);
-            this.txtTaiKhoan.TabIndex = 139;
+            this.txtTaiKhoan.TabIndex = 0;
             // 
             // FrmDangNhap
             // 

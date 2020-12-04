@@ -40,7 +40,7 @@
             this.MS_BaoCaoThongKe = new System.Windows.Forms.ToolStripMenuItem();
             this.MS_BCSach = new System.Windows.Forms.ToolStripMenuItem();
             this.MS_TKDocGia = new System.Windows.Forms.ToolStripMenuItem();
-            this.MS_LapPhieu = new System.Windows.Forms.ToolStripMenuItem();
+            this.MS_QLPhieuMuon = new System.Windows.Forms.ToolStripMenuItem();
             this.MS_NhanVien = new System.Windows.Forms.ToolStripMenuItem();
             this.MS_DSNhanVien = new System.Windows.Forms.ToolStripMenuItem();
             this.MS_HeThong = new System.Windows.Forms.ToolStripMenuItem();
@@ -128,7 +128,7 @@
             this.MS_BaoCaoThongKe.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MS_BCSach,
             this.MS_TKDocGia,
-            this.MS_LapPhieu});
+            this.MS_QLPhieuMuon});
             this.MS_BaoCaoThongKe.Name = "MS_BaoCaoThongKe";
             this.MS_BaoCaoThongKe.Size = new System.Drawing.Size(124, 20);
             this.MS_BaoCaoThongKe.Text = "Báo Cáo - Thống Kê";
@@ -136,20 +136,20 @@
             // MS_BCSach
             // 
             this.MS_BCSach.Name = "MS_BCSach";
-            this.MS_BCSach.Size = new System.Drawing.Size(168, 22);
+            this.MS_BCSach.Size = new System.Drawing.Size(185, 22);
             this.MS_BCSach.Text = "Báo Cáo Sách";
             // 
             // MS_TKDocGia
             // 
             this.MS_TKDocGia.Name = "MS_TKDocGia";
-            this.MS_TKDocGia.Size = new System.Drawing.Size(168, 22);
+            this.MS_TKDocGia.Size = new System.Drawing.Size(185, 22);
             this.MS_TKDocGia.Text = "Thống Kê Độc Giả";
             // 
-            // MS_LapPhieu
+            // MS_QLPhieuMuon
             // 
-            this.MS_LapPhieu.Name = "MS_LapPhieu";
-            this.MS_LapPhieu.Size = new System.Drawing.Size(168, 22);
-            this.MS_LapPhieu.Text = "Lập Phiếu";
+            this.MS_QLPhieuMuon.Name = "MS_QLPhieuMuon";
+            this.MS_QLPhieuMuon.Size = new System.Drawing.Size(185, 22);
+            this.MS_QLPhieuMuon.Text = "Quản Lý Phiếu Mượn";
             // 
             // MS_NhanVien
             // 
@@ -178,7 +178,7 @@
             // MS_DangNhap
             // 
             this.MS_DangNhap.Name = "MS_DangNhap";
-            this.MS_DangNhap.Size = new System.Drawing.Size(180, 22);
+            this.MS_DangNhap.Size = new System.Drawing.Size(134, 22);
             this.MS_DangNhap.Text = "Đăng Nhập";
             this.MS_DangNhap.Click += new System.EventHandler(this.MS_DangNhap_Click);
             // 
@@ -187,6 +187,7 @@
             this.MS_DangXuat.Name = "MS_DangXuat";
             this.MS_DangXuat.Size = new System.Drawing.Size(134, 22);
             this.MS_DangXuat.Text = "Đăng Xuất";
+            this.MS_DangXuat.Click += new System.EventHandler(this.MS_DangXuat_Click);
             // 
             // MS_Thoat
             // 
@@ -214,7 +215,7 @@
             this.Controls.Add(this.MS_Main);
             this.Name = "FrmMain";
             this.Text = "FrmMain";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmDangNhap_FormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmMain_FormClosed);
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.MS_Main.ResumeLayout(false);
             this.MS_Main.PerformLayout();
@@ -237,7 +238,7 @@
         private System.Windows.Forms.ToolStripMenuItem MS_BaoCaoThongKe;
         private System.Windows.Forms.ToolStripMenuItem MS_BCSach;
         private System.Windows.Forms.ToolStripMenuItem MS_TKDocGia;
-        private System.Windows.Forms.ToolStripMenuItem MS_LapPhieu;
+        private System.Windows.Forms.ToolStripMenuItem MS_QLPhieuMuon;
         private System.Windows.Forms.ToolStripMenuItem MS_NhanVien;
         private System.Windows.Forms.ToolStripMenuItem MS_DSNhanVien;
         private System.Windows.Forms.ToolStripMenuItem MS_HeThong;

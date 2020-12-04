@@ -20,6 +20,7 @@ namespace GUI
         public static int profile = 0;
         public static string taikhoan;
         FrmDangNhap dn = new FrmDangNhap();
+
         private bool CheckExistsForm(string name)
         {
             bool check = false;
@@ -54,7 +55,7 @@ namespace GUI
             MS_BaoCaoThongKe.Visible = true;
             MS_BCSach.Visible = true;
             MS_TKDocGia.Visible = true;
-            MS_LapPhieu.Visible = true;
+            MS_QLPhieuMuon.Visible = true;
             MS_NhanVien.Visible = true;
             MS_DSNhanVien.Visible = true;
 
@@ -72,7 +73,7 @@ namespace GUI
             MS_BaoCaoThongKe.Visible = false;
             MS_BCSach.Visible = false;
             MS_TKDocGia.Visible = false;
-            MS_LapPhieu.Visible = false;
+            MS_QLPhieuMuon.Visible = false;
             MS_NhanVien.Visible = false;
             MS_DSNhanVien.Visible = false;
 
@@ -109,7 +110,7 @@ namespace GUI
                 MS_BaoCaoThongKe.Visible = false;
                 MS_BCSach.Visible = false;
                 MS_TKDocGia.Visible = false;
-                MS_LapPhieu.Visible = false;
+                MS_QLPhieuMuon.Visible = false;
                 MS_NhanVien.Visible = false;
                 MS_DSNhanVien.Visible = false;
                 MS_HeThong.Visible = true;
@@ -157,5 +158,13 @@ namespace GUI
             this.Refresh();
             FrmMain_Load(sender, e);
         }
+
+        private void MS_DangXuat_Click(object sender, EventArgs e)
+        {
+            session = 0;
+            profile = 0;
+            ResetValue();
+        }
+
     }
 }

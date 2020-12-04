@@ -37,22 +37,20 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbbMaNhanVien = new System.Windows.Forms.ComboBox();
+            this.cbbMaDocGia = new System.Windows.Forms.ComboBox();
+            this.cbbMaSach = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtMaPM = new System.Windows.Forms.TextBox();
+            this.txtMaCTPM = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -60,7 +58,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -150,22 +147,20 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.comboBox3);
-            this.panel1.Controls.Add(this.comboBox2);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.cbbMaNhanVien);
+            this.panel1.Controls.Add(this.cbbMaDocGia);
+            this.panel1.Controls.Add(this.cbbMaSach);
             this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Controls.Add(this.numericUpDown1);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Controls.Add(this.radioButton2);
             this.panel1.Controls.Add(this.dateTimePicker2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.txtMaPM);
+            this.panel1.Controls.Add(this.txtMaCTPM);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label5);
@@ -174,29 +169,29 @@
             this.panel1.Size = new System.Drawing.Size(708, 154);
             this.panel1.TabIndex = 64;
             // 
-            // comboBox3
+            // cbbMaNhanVien
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(97, 127);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(605, 21);
-            this.comboBox3.TabIndex = 60;
+            this.cbbMaNhanVien.FormattingEnabled = true;
+            this.cbbMaNhanVien.Location = new System.Drawing.Point(97, 106);
+            this.cbbMaNhanVien.Name = "cbbMaNhanVien";
+            this.cbbMaNhanVien.Size = new System.Drawing.Size(605, 21);
+            this.cbbMaNhanVien.TabIndex = 60;
             // 
-            // comboBox2
+            // cbbMaDocGia
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(97, 101);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(605, 21);
-            this.comboBox2.TabIndex = 60;
+            this.cbbMaDocGia.FormattingEnabled = true;
+            this.cbbMaDocGia.Location = new System.Drawing.Point(96, 79);
+            this.cbbMaDocGia.Name = "cbbMaDocGia";
+            this.cbbMaDocGia.Size = new System.Drawing.Size(605, 21);
+            this.cbbMaDocGia.TabIndex = 60;
             // 
-            // comboBox1
+            // cbbMaSach
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(97, 52);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(248, 21);
-            this.comboBox1.TabIndex = 60;
+            this.cbbMaSach.FormattingEnabled = true;
+            this.cbbMaSach.Location = new System.Drawing.Point(97, 52);
+            this.cbbMaSach.Name = "cbbMaSach";
+            this.cbbMaSach.Size = new System.Drawing.Size(248, 21);
+            this.cbbMaSach.TabIndex = 60;
             // 
             // dateTimePicker1
             // 
@@ -205,13 +200,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(273, 20);
             this.dateTimePicker1.TabIndex = 53;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(97, 78);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(248, 20);
-            this.numericUpDown1.TabIndex = 59;
             // 
             // label6
             // 
@@ -275,23 +263,23 @@
             this.dateTimePicker2.Size = new System.Drawing.Size(273, 20);
             this.dateTimePicker2.TabIndex = 54;
             // 
-            // textBox1
+            // txtMaPM
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(97, 4);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 20);
-            this.textBox1.TabIndex = 36;
+            this.txtMaPM.Enabled = false;
+            this.txtMaPM.Location = new System.Drawing.Point(97, 4);
+            this.txtMaPM.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaPM.Name = "txtMaPM";
+            this.txtMaPM.Size = new System.Drawing.Size(248, 20);
+            this.txtMaPM.TabIndex = 36;
             // 
-            // textBox3
+            // txtMaCTPM
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(97, 28);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(248, 20);
-            this.textBox3.TabIndex = 50;
+            this.txtMaCTPM.Enabled = false;
+            this.txtMaCTPM.Location = new System.Drawing.Point(97, 28);
+            this.txtMaCTPM.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaCTPM.Name = "txtMaCTPM";
+            this.txtMaCTPM.Size = new System.Drawing.Size(248, 20);
+            this.txtMaCTPM.TabIndex = 50;
             // 
             // label2
             // 
@@ -313,20 +301,10 @@
             this.label3.TabIndex = 41;
             this.label3.Text = "Mã CTPM";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(17, 80);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 13);
-            this.label10.TabIndex = 42;
-            this.label10.Text = "Số Lượng";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 104);
+            this.label4.Location = new System.Drawing.Point(17, 82);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 13);
@@ -346,7 +324,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 130);
+            this.label5.Location = new System.Drawing.Point(17, 109);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 13);
@@ -390,7 +368,6 @@
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -408,22 +385,20 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbbMaNhanVien;
+        private System.Windows.Forms.ComboBox cbbMaDocGia;
+        private System.Windows.Forms.ComboBox cbbMaSach;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtMaPM;
+        private System.Windows.Forms.TextBox txtMaCTPM;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label5;

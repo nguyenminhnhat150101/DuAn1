@@ -53,6 +53,7 @@
             // 
             // MS_Main
             // 
+            this.MS_Main.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.MS_Main.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MS_QLDM,
             this.MS_QLMuonTraSach,
@@ -62,7 +63,7 @@
             this.txtChao});
             this.MS_Main.Location = new System.Drawing.Point(0, 0);
             this.MS_Main.Name = "MS_Main";
-            this.MS_Main.Size = new System.Drawing.Size(800, 24);
+            this.MS_Main.Size = new System.Drawing.Size(1067, 30);
             this.MS_Main.TabIndex = 4;
             this.MS_Main.Text = "menuStrip1";
             // 
@@ -73,32 +74,34 @@
             this.MS_Sach,
             this.MS_TacGia,
             this.MS_DocGia});
+            this.MS_QLDM.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MS_QLDM.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MS_QLDM.Name = "MS_QLDM";
-            this.MS_QLDM.Size = new System.Drawing.Size(120, 20);
+            this.MS_QLDM.Size = new System.Drawing.Size(155, 26);
             this.MS_QLDM.Text = "Quản Lý Danh Mục";
             // 
             // MS_LoaiSach
             // 
             this.MS_LoaiSach.Name = "MS_LoaiSach";
-            this.MS_LoaiSach.Size = new System.Drawing.Size(124, 22);
+            this.MS_LoaiSach.Size = new System.Drawing.Size(224, 26);
             this.MS_LoaiSach.Text = "Loại Sách";
             // 
             // MS_Sach
             // 
             this.MS_Sach.Name = "MS_Sach";
-            this.MS_Sach.Size = new System.Drawing.Size(124, 22);
+            this.MS_Sach.Size = new System.Drawing.Size(224, 26);
             this.MS_Sach.Text = "Sách";
             // 
             // MS_TacGia
             // 
             this.MS_TacGia.Name = "MS_TacGia";
-            this.MS_TacGia.Size = new System.Drawing.Size(124, 22);
+            this.MS_TacGia.Size = new System.Drawing.Size(224, 26);
             this.MS_TacGia.Text = "Tác Giả";
             // 
             // MS_DocGia
             // 
             this.MS_DocGia.Name = "MS_DocGia";
-            this.MS_DocGia.Size = new System.Drawing.Size(124, 22);
+            this.MS_DocGia.Size = new System.Drawing.Size(224, 26);
             this.MS_DocGia.Text = "Độc Giả";
             // 
             // MS_QLMuonTraSach
@@ -106,21 +109,22 @@
             this.MS_QLMuonTraSach.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MS_MuonSach,
             this.MS_TraSach});
+            this.MS_QLMuonTraSach.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MS_QLMuonTraSach.Name = "MS_QLMuonTraSach";
-            this.MS_QLMuonTraSach.Size = new System.Drawing.Size(151, 20);
+            this.MS_QLMuonTraSach.Size = new System.Drawing.Size(198, 26);
             this.MS_QLMuonTraSach.Text = "Quản Lý Mượn - Trả Sách";
             // 
             // MS_MuonSach
             // 
             this.MS_MuonSach.Name = "MS_MuonSach";
-            this.MS_MuonSach.Size = new System.Drawing.Size(156, 22);
+            this.MS_MuonSach.Size = new System.Drawing.Size(224, 26);
             this.MS_MuonSach.Text = "Mượn Sách";
             // 
             // MS_TraSach
             // 
             this.MS_TraSach.Name = "MS_TraSach";
             this.MS_TraSach.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.N)));
-            this.MS_TraSach.Size = new System.Drawing.Size(156, 22);
+            this.MS_TraSach.Size = new System.Drawing.Size(224, 26);
             this.MS_TraSach.Text = "Trả Sách";
             // 
             // MS_BaoCaoThongKe
@@ -129,40 +133,42 @@
             this.MS_BCSach,
             this.MS_TKDocGia,
             this.MS_LapPhieu});
+            this.MS_BaoCaoThongKe.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MS_BaoCaoThongKe.Name = "MS_BaoCaoThongKe";
-            this.MS_BaoCaoThongKe.Size = new System.Drawing.Size(124, 20);
+            this.MS_BaoCaoThongKe.Size = new System.Drawing.Size(161, 26);
             this.MS_BaoCaoThongKe.Text = "Báo Cáo - Thống Kê";
             // 
             // MS_BCSach
             // 
             this.MS_BCSach.Name = "MS_BCSach";
-            this.MS_BCSach.Size = new System.Drawing.Size(168, 22);
+            this.MS_BCSach.Size = new System.Drawing.Size(224, 26);
             this.MS_BCSach.Text = "Báo Cáo Sách";
             // 
             // MS_TKDocGia
             // 
             this.MS_TKDocGia.Name = "MS_TKDocGia";
-            this.MS_TKDocGia.Size = new System.Drawing.Size(168, 22);
+            this.MS_TKDocGia.Size = new System.Drawing.Size(224, 26);
             this.MS_TKDocGia.Text = "Thống Kê Độc Giả";
             // 
             // MS_LapPhieu
             // 
             this.MS_LapPhieu.Name = "MS_LapPhieu";
-            this.MS_LapPhieu.Size = new System.Drawing.Size(168, 22);
+            this.MS_LapPhieu.Size = new System.Drawing.Size(224, 26);
             this.MS_LapPhieu.Text = "Lập Phiếu";
             // 
             // MS_NhanVien
             // 
             this.MS_NhanVien.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MS_DSNhanVien});
+            this.MS_NhanVien.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MS_NhanVien.Name = "MS_NhanVien";
-            this.MS_NhanVien.Size = new System.Drawing.Size(74, 20);
+            this.MS_NhanVien.Size = new System.Drawing.Size(96, 26);
             this.MS_NhanVien.Text = "Nhân Viên";
             // 
             // MS_DSNhanVien
             // 
             this.MS_DSNhanVien.Name = "MS_DSNhanVien";
-            this.MS_DSNhanVien.Size = new System.Drawing.Size(146, 22);
+            this.MS_DSNhanVien.Size = new System.Drawing.Size(224, 26);
             this.MS_DSNhanVien.Text = "DS Nhân Viên";
             // 
             // MS_HeThong
@@ -171,27 +177,28 @@
             this.MS_DangNhap,
             this.MS_DangXuat,
             this.MS_Thoat});
+            this.MS_HeThong.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MS_HeThong.Name = "MS_HeThong";
-            this.MS_HeThong.Size = new System.Drawing.Size(71, 20);
+            this.MS_HeThong.Size = new System.Drawing.Size(91, 26);
             this.MS_HeThong.Text = "Hệ Thống";
             // 
             // MS_DangNhap
             // 
             this.MS_DangNhap.Name = "MS_DangNhap";
-            this.MS_DangNhap.Size = new System.Drawing.Size(180, 22);
+            this.MS_DangNhap.Size = new System.Drawing.Size(224, 26);
             this.MS_DangNhap.Text = "Đăng Nhập";
             this.MS_DangNhap.Click += new System.EventHandler(this.MS_DangNhap_Click);
             // 
             // MS_DangXuat
             // 
             this.MS_DangXuat.Name = "MS_DangXuat";
-            this.MS_DangXuat.Size = new System.Drawing.Size(134, 22);
+            this.MS_DangXuat.Size = new System.Drawing.Size(224, 26);
             this.MS_DangXuat.Text = "Đăng Xuất";
             // 
             // MS_Thoat
             // 
             this.MS_Thoat.Name = "MS_Thoat";
-            this.MS_Thoat.Size = new System.Drawing.Size(134, 22);
+            this.MS_Thoat.Size = new System.Drawing.Size(224, 26);
             this.MS_Thoat.Text = "Thoát";
             // 
             // txtChao
@@ -203,15 +210,18 @@
             this.txtChao.ForeColor = System.Drawing.Color.Black;
             this.txtChao.Name = "txtChao";
             this.txtChao.ReadOnly = true;
-            this.txtChao.Size = new System.Drawing.Size(220, 20);
+            this.txtChao.Size = new System.Drawing.Size(293, 26);
             this.txtChao.Text = "nhatnmps13276@fpt.edu.vn";
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::GUI.Properties.Resources.ae629b8ab560208172b6a412ce25e592;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.MS_Main);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmMain";
             this.Text = "FrmMain";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmDangNhap_FormClosed);

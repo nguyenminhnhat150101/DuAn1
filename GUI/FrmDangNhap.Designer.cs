@@ -31,87 +31,102 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btDangNhap = new System.Windows.Forms.Button();
             this.btDong = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(143, 23);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(191, 28);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 17);
+            this.label4.Size = new System.Drawing.Size(101, 20);
             this.label4.TabIndex = 144;
             this.label4.Text = "Đăng Nhập";
             // 
             // btDangNhap
             // 
-            this.btDangNhap.Location = new System.Drawing.Point(88, 140);
+            this.btDangNhap.BackColor = System.Drawing.Color.White;
+            this.btDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDangNhap.Location = new System.Drawing.Point(117, 172);
+            this.btDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btDangNhap.Name = "btDangNhap";
-            this.btDangNhap.Size = new System.Drawing.Size(217, 35);
+            this.btDangNhap.Size = new System.Drawing.Size(289, 43);
             this.btDangNhap.TabIndex = 142;
             this.btDangNhap.Text = "Đăng Nhập";
-            this.btDangNhap.UseVisualStyleBackColor = true;
+            this.btDangNhap.UseVisualStyleBackColor = false;
             this.btDangNhap.Click += new System.EventHandler(this.btDangNhap_Click);
             // 
             // btDong
             // 
-            this.btDong.Location = new System.Drawing.Point(88, 192);
+            this.btDong.BackColor = System.Drawing.Color.White;
+            this.btDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDong.Location = new System.Drawing.Point(117, 236);
+            this.btDong.Margin = new System.Windows.Forms.Padding(4);
             this.btDong.Name = "btDong";
-            this.btDong.Size = new System.Drawing.Size(217, 35);
+            this.btDong.Size = new System.Drawing.Size(289, 43);
             this.btDong.TabIndex = 143;
             this.btDong.Text = "Đóng";
-            this.btDong.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 67);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
-            this.label3.TabIndex = 140;
-            this.label3.Text = "Tài Khoản";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
-            this.label2.TabIndex = 141;
-            this.label2.Text = "Mật Khẩu";
+            this.btDong.UseVisualStyleBackColor = false;
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(88, 99);
+            this.txtMatKhau.Location = new System.Drawing.Point(117, 122);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(250, 20);
+            this.txtMatKhau.Size = new System.Drawing.Size(332, 22);
             this.txtMatKhau.TabIndex = 138;
             // 
             // txtTaiKhoan
             // 
-            this.txtTaiKhoan.Location = new System.Drawing.Point(88, 64);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(117, 79);
+            this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
-            this.txtTaiKhoan.Size = new System.Drawing.Size(250, 20);
+            this.txtTaiKhoan.Size = new System.Drawing.Size(332, 22);
             this.txtTaiKhoan.TabIndex = 139;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(12, 79);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 27);
+            this.button1.TabIndex = 145;
+            this.button1.Text = "Tài khoản";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(12, 122);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(98, 27);
+            this.button2.TabIndex = 146;
+            this.button2.Text = "Mật khẩu";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // FrmDangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 251);
+            this.BackgroundImage = global::GUI.Properties.Resources.ae629b8ab560208172b6a412ce25e592;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(485, 309);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btDangNhap);
             this.Controls.Add(this.btDong);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtTaiKhoan);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmDangNhap";
             this.Text = "FrmDangNhap";
             this.Load += new System.EventHandler(this.FrmDangNhap_Load);
@@ -125,9 +140,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btDangNhap;
         private System.Windows.Forms.Button btDong;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.TextBox txtTaiKhoan;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

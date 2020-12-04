@@ -57,23 +57,11 @@
     <Compile Include="FrmDocGia.Designer.cs">
       <DependentUpon>FrmDocGia.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMain.Designer.cs">
-      <DependentUpon>FrmMain.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmNhanVien.Designer.cs">
       <DependentUpon>FrmNhanVien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmPhieuMuon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmPhieuMuon.Designer.cs">
-      <DependentUpon>FrmPhieuMuon.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmSach.cs">
       <SubType>Form</SubType>
@@ -107,14 +95,8 @@
     <EmbeddedResource Include="FrmDocGia.resx">
       <DependentUpon>FrmDocGia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMain.resx">
-      <DependentUpon>FrmMain.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmNhanVien.resx">
       <DependentUpon>FrmNhanVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmPhieuMuon.resx">
-      <DependentUpon>FrmPhieuMuon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSach.resx">
       <DependentUpon>FrmSach.cs</DependentUpon>
